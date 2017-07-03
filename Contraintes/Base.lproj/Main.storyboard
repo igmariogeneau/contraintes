@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -94,17 +95,29 @@
                                     </mask>
                                 </variation>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="w2h-JK-D8e">
+                                <rect key="frame" x="37.5" y="14" width="300" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w2h-JK-D8e" secondAttribute="height" multiplier="113:61" id="5pH-A4-CrZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7pN-UW-mdG"/>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Ap7-ve-kJK"/>
+                            <constraint firstItem="w2h-JK-D8e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="14" id="CoI-PJ-Uob"/>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="Dp5-Du-i78"/>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fTX-xm-j5g">
                                 <variation key="heightClass=compact-widthClass=compact" constant="17"/>
                             </constraint>
+                            <constraint firstItem="w2h-JK-D8e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oTM-7n-dnO"/>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="su4-j4-nHu"/>
                             <constraint firstItem="eug-b1-7I3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tAS-rc-wvr"/>
+                            <constraint firstItem="w2h-JK-D8e" firstAttribute="width" secondItem="eug-b1-7I3" secondAttribute="width" id="vk5-cx-zLM"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -127,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-879.20000000000005" y="80.50974512743629"/>
+            <point key="canvasLocation" x="-1258.4000000000001" y="-102.99850074962519"/>
         </scene>
     </scenes>
     <resources>
