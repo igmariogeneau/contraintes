@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B05E7D71F0C2CA7001A0BB9 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B05E7D51F0C2CA7001A0BB9 /* new.png */; };
+		9B05E7D81F0C2CA7001A0BB9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B05E7D61F0C2CA7001A0BB9 /* play.png */; };
 		9BE63CDA1F0AC1A400415B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE63CD91F0AC1A400415B59 /* AppDelegate.swift */; };
 		9BE63CDC1F0AC1A400415B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE63CDB1F0AC1A400415B59 /* ViewController.swift */; };
 		9BE63CDF1F0AC1A400415B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE63CDD1F0AC1A400415B59 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B05E7D51F0C2CA7001A0BB9 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new.png; path = nouveau_visuel/new.png; sourceTree = "<group>"; };
+		9B05E7D61F0C2CA7001A0BB9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = nouveau_visuel/play.png; sourceTree = "<group>"; };
 		9BE63CD61F0AC1A400415B59 /* Contraintes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contraintes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE63CD91F0AC1A400415B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE63CDB1F0AC1A400415B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		9BE63CEB1F0AC1C500415B59 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9B05E7D51F0C2CA7001A0BB9 /* new.png */,
+				9B05E7D61F0C2CA7001A0BB9 /* play.png */,
 				9BE63CF01F0AE0F800415B59 /* ring.png */,
 				9BE63CEC1F0AC1D200415B59 /* b2.png */,
 				9BE63CED1F0AC1D200415B59 /* b8.png */,
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE63CEF1F0AC1D200415B59 /* b8.png in Resources */,
+				9B05E7D81F0C2CA7001A0BB9 /* play.png in Resources */,
+				9B05E7D71F0C2CA7001A0BB9 /* new.png in Resources */,
 				9BE63CE41F0AC1A400415B59 /* LaunchScreen.storyboard in Resources */,
 				9BE63CEE1F0AC1D200415B59 /* b2.png in Resources */,
 				9BE63CE11F0AC1A400415B59 /* Assets.xcassets in Resources */,
@@ -319,6 +327,7 @@
 				9BE63CEA1F0AC1A500415B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
